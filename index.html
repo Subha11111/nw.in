@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="x-icon" href="img/logo.jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Wallah</title>
+</head>
+
+
+<style>
+</style>
+
+
+<body>
+    <header>
+        <div class="mainm">
+            <img src="img/logo.jpg" alt="Logo" class="logo1">
+            <h2 class="logo">Notes Wallah</h2>
+        </div>
+        <nav class="navigation">
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+    <div class="container">
+
+        <div class="product-card">
+            <img src="img/science.jpg" alt="Product Image" class="img">
+            <div class="product-info">
+                <h3>Science</h3>
+                <p>Notes of all chapters of Science for class X by Subha & Ayush</p>
+                <a href="science.html"><button class="mainbtn">Check Out</button></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="img/math.jpeg" alt="Product Image">
+            <div class="product-info">
+                <h3>Mathematics</h3>
+                <p>Notes of all chapters of Maths for class X by Arnab</p>
+                <a href="math.html"><button class="mainbtn">Check Out</button></a>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="img/sst.jpg" alt="Product Image" class="img">
+            <div class="product-info">
+                <h3>SST</h3>
+                <p>Notes of all chapters of SST for class X by Anurag</p>
+                <a href="sst.html"><button class="mainbtn">Check Out</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="https://formspree.io/f/mdovlaoo" method="post">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" name="email" id="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" name="password" id="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forget">
+                    <label><input type="checkbox" name="remember" id="remember">Remember me</label>
+                    <a href="#"><b>Forget password</b></a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="main-forget">
+                    <label>Don't have an account?</label>
+                    <a href="#" class="register-link"><b>Register</b></a>
+                </div>
+            </form>
+        </div>
+
+
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" name="Name" id="Name" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" name="email" id="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" name="password" id="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forget">
+                    <label><input type="checkbox" name="remember" id="remember">I agree to the terms &
+                        conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="main-forget">
+                    <label>Already have an account?</label>
+                    <a href="#" class="login-link"><b>Login</b></a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
